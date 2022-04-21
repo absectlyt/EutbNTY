@@ -8,7 +8,6 @@ Extractors
 * [peertube] Only call description endpoint if necessary (#29383)
 * [periscope] Pass referer to HLS requests (#29419)
 - [liveleak] Remove extractor (#17625, #24222, #29331)
-+ [pornhub] Add support for pornhubthbh7ap3u.onion
 * [pornhub] Detect geo restriction
 * [pornhub] Dismiss tbr extracted from download URLs (#28927)
 * [curiositystream:collection] Extend _VALID_URL (#26326, #29117)
@@ -332,8 +331,6 @@ Extractors
 * [AMP] Fix upload date and timestamp extraction (#27970)
 * [tv4] Relax URL regular expression (#27964)
 + [tv2] Add support for mtvuutiset.fi (#27744)
-* [adn] Improve login warning reporting
-* [zype] Fix uplynk id extraction (#27956)
 + [adn] Add support for authentication (#17091, #27841, #27937)
 
 
@@ -834,8 +831,6 @@ Extractors
 + [ndr:embed:base] Extract subtitles (#25447, #26106)
 + [servus] Add support for pm-wissen.com (#25869)
 * [servus] Fix extraction (#26872, #26967, #26983, #27000)
-* [xtube] Fix extraction (#26996)
-* [lrt] Fix extraction
 + [lbry] Add support for lbry.tv
 + [condenast] Extract subtitles
 * [condenast] Fix extraction
